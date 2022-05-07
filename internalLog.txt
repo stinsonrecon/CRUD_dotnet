@@ -1,0 +1,159 @@
+2022-04-27 09:56:27.3670 Info Message Template Auto Format enabled
+2022-04-27 09:56:27.3964 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-27 09:56:27.4490 Info Adding target FileTarget(Name=alldata)
+2022-04-27 09:56:27.4693 Info Adding target FileTarget(Name=otherFile-web)
+2022-04-27 09:56:27.5171 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\CSharp\CRUD\bin\Debug\net5.0\nlog.config
+2022-04-27 09:56:29.5675 Info Shutdown() called. Logger closing...
+2022-04-27 09:56:29.5675 Info Closing old configuration.
+2022-04-27 09:56:29.5943 Info Logger has been closed down.
+2022-04-27 09:56:42.0498 Info Message Template Auto Format enabled
+2022-04-27 09:56:42.0562 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-27 09:56:42.0976 Info Adding target FileTarget(Name=alldata)
+2022-04-27 09:56:42.0976 Info Adding target FileTarget(Name=otherFile-web)
+2022-04-27 09:56:42.1228 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\CSharp\CRUD\bin\Debug\net5.0\nlog.config
+2022-04-27 09:56:42.3845 Info Shutdown() called. Logger closing...
+2022-04-27 09:56:42.3845 Info Closing old configuration.
+2022-04-27 09:56:42.3845 Info Logger has been closed down.
+2022-04-27 10:00:34.3102 Info Message Template Auto Format enabled
+2022-04-27 10:00:34.3102 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-27 10:00:34.3487 Info Adding target FileTarget(Name=alldata)
+2022-04-27 10:00:34.3536 Info Adding target FileTarget(Name=otherFile-web)
+2022-04-27 10:00:34.3762 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\CSharp\CRUD\bin\Debug\net5.0\nlog.config
+2022-04-27 10:00:34.6757 Info Shutdown() called. Logger closing...
+2022-04-27 10:00:34.6757 Info Closing old configuration.
+2022-04-27 10:00:34.6914 Info Logger has been closed down.
+2022-04-27 10:09:40.8683 Info Message Template Auto Format enabled
+2022-04-27 10:09:40.8683 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-27 10:09:40.9144 Info Adding target FileTarget(Name=alldata)
+2022-04-27 10:09:40.9144 Info Adding target FileTarget(Name=otherFile-web)
+2022-04-27 10:09:40.9390 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\CSharp\CRUD\bin\Debug\net5.0\nlog.config
+2022-04-27 10:17:08.6051 Info Message Template Auto Format enabled
+2022-04-27 10:17:08.6051 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-27 10:17:08.6387 Info Adding target FileTarget(Name=alldata)
+2022-04-27 10:17:08.6387 Info Adding target FileTarget(Name=otherFile-web)
+2022-04-27 10:17:08.6599 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\CSharp\CRUD\bin\Debug\net5.0\nlog.config
+2022-04-27 10:17:08.9118 Info Shutdown() called. Logger closing...
+2022-04-27 10:17:08.9118 Info Closing old configuration.
+2022-04-27 10:17:08.9276 Info Logger has been closed down.
+2022-04-27 10:20:14.5540 Info Message Template Auto Format enabled
+2022-04-27 10:20:14.5591 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-27 10:20:14.5869 Info Adding target FileTarget(Name=alldata)
+2022-04-27 10:20:14.5869 Info Adding target FileTarget(Name=otherFile-web)
+2022-04-27 10:20:14.6073 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\CSharp\CRUD\bin\Debug\net5.0\nlog.config
+2022-04-27 10:32:20.1141 Info Message Template Auto Format enabled
+2022-04-27 10:32:20.1204 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-27 10:32:20.1546 Info Adding target FileTarget(Name=alldata)
+2022-04-27 10:32:20.1546 Info Adding target FileTarget(Name=otherFile-web)
+2022-04-27 10:32:20.1761 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\CSharp\CRUD\bin\Debug\net5.0\NLog.config
+2022-04-27 10:32:20.1897 Info Configuration initialized.
+2022-04-27 10:32:20.1897 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.15.867. Product version: 4.7.15+a821647c37ac7a58c6bef2a446847b362de787eb. GlobalAssemblyCache: False
+2022-04-27 10:32:21.1299 Info AppDomain Shutting down. Logger closing...
+2022-04-27 10:32:21.1388 Info Logger has been shut down.
+2022-04-27 10:32:45.7437 Info Message Template Auto Format enabled
+2022-04-27 10:32:45.7437 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-27 10:32:45.7745 Info Adding target FileTarget(Name=alldata)
+2022-04-27 10:32:45.7745 Info Adding target FileTarget(Name=otherFile-web)
+2022-04-27 10:32:45.7891 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\CSharp\CRUD\bin\Debug\net5.0\NLog.config
+2022-04-27 10:32:45.7891 Info Configuration initialized.
+2022-04-27 10:32:45.7891 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.15.867. Product version: 4.7.15+a821647c37ac7a58c6bef2a446847b362de787eb. GlobalAssemblyCache: False
+2022-04-27 10:32:47.0026 Info AppDomain Shutting down. Logger closing...
+2022-04-27 10:32:47.0105 Info Logger has been shut down.
+2022-04-27 10:33:08.7630 Info Message Template Auto Format enabled
+2022-04-27 10:33:08.7630 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-27 10:33:08.7959 Info Adding target FileTarget(Name=alldata)
+2022-04-27 10:33:08.7959 Info Adding target FileTarget(Name=otherFile-web)
+2022-04-27 10:33:08.8173 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\CSharp\CRUD\bin\Debug\net5.0\nlog.config
+2022-04-27 16:05:16.8618 Info Message Template Auto Format enabled
+2022-04-27 16:05:16.8902 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-27 16:05:16.9423 Info Adding target FileTarget(Name=alldata)
+2022-04-27 16:05:16.9656 Info Adding target FileTarget(Name=otherFile-web)
+2022-04-27 16:05:17.0383 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\CSharp\CRUD\bin\Debug\net5.0\nlog.config
+2022-04-27 16:05:45.1263 Info Shutdown() called. Logger closing...
+2022-04-27 16:05:45.1263 Info Closing old configuration.
+2022-04-27 16:05:45.1326 Info Logger has been closed down.
+2022-04-27 16:08:26.0258 Info Message Template Auto Format enabled
+2022-04-27 16:08:26.0331 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-27 16:08:26.0705 Info Adding target FileTarget(Name=alldata)
+2022-04-27 16:08:26.0705 Info Adding target FileTarget(Name=otherFile-web)
+2022-04-27 16:08:26.1006 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\CSharp\CRUD\bin\Debug\net5.0\nlog.config
+2022-04-27 16:32:25.1188 Info Message Template Auto Format enabled
+2022-04-27 16:32:25.1188 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-27 16:32:25.1587 Info Adding target FileTarget(Name=alldata)
+2022-04-27 16:32:25.1587 Info Adding target FileTarget(Name=otherFile-web)
+2022-04-27 16:32:25.1805 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\CSharp\CRUD\bin\Debug\net5.0\nlog.config
+2022-04-27 16:32:51.8616 Info Message Template Auto Format enabled
+2022-04-27 16:32:51.8676 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-27 16:32:51.8974 Info Adding target FileTarget(Name=alldata)
+2022-04-27 16:32:51.8974 Info Adding target FileTarget(Name=otherFile-web)
+2022-04-27 16:32:51.9193 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\CSharp\CRUD\bin\Debug\net5.0\nlog.config
+2022-04-27 16:54:02.3103 Info Message Template Auto Format enabled
+2022-04-27 16:54:02.3103 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-27 16:54:02.3593 Info Adding target FileTarget(Name=alldata)
+2022-04-27 16:54:02.3593 Info Adding target FileTarget(Name=otherFile-web)
+2022-04-27 16:54:02.3889 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\CSharp\CRUD\bin\Debug\net5.0\nlog.config
+2022-04-27 16:59:35.6039 Info Message Template Auto Format enabled
+2022-04-27 16:59:35.6191 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-27 16:59:35.6654 Info Adding target FileTarget(Name=alldata)
+2022-04-27 16:59:35.6654 Info Adding target FileTarget(Name=otherFile-web)
+2022-04-27 16:59:35.7029 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\CSharp\CRUD\bin\Debug\net5.0\nlog.config
+2022-04-27 17:00:22.2360 Info Message Template Auto Format enabled
+2022-04-27 17:00:22.2428 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-27 17:00:22.2730 Info Adding target FileTarget(Name=alldata)
+2022-04-27 17:00:22.2730 Info Adding target FileTarget(Name=otherFile-web)
+2022-04-27 17:00:22.2965 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\CSharp\CRUD\bin\Debug\net5.0\nlog.config
+2022-04-27 17:01:01.7923 Info Message Template Auto Format enabled
+2022-04-27 17:01:01.7923 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-27 17:01:01.8293 Info Adding target FileTarget(Name=alldata)
+2022-04-27 17:01:01.8293 Info Adding target FileTarget(Name=otherFile-web)
+2022-04-27 17:01:01.8513 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\CSharp\CRUD\bin\Debug\net5.0\nlog.config
+2022-04-27 17:01:21.5194 Info Message Template Auto Format enabled
+2022-04-27 17:01:21.5256 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-27 17:01:21.5571 Info Adding target FileTarget(Name=alldata)
+2022-04-27 17:01:21.5571 Info Adding target FileTarget(Name=otherFile-web)
+2022-04-27 17:01:21.5815 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\CSharp\CRUD\bin\Debug\net5.0\nlog.config
+2022-04-27 17:01:58.4633 Info Message Template Auto Format enabled
+2022-04-27 17:01:58.4633 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-27 17:01:58.4986 Info Adding target FileTarget(Name=alldata)
+2022-04-27 17:01:58.4986 Info Adding target FileTarget(Name=otherFile-web)
+2022-04-27 17:01:58.5197 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\CSharp\CRUD\bin\Debug\net5.0\nlog.config
+2022-04-28 17:16:28.5751 Info Message Template Auto Format enabled
+2022-04-28 17:16:28.6313 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-28 17:16:28.7793 Info Adding target FileTarget(Name=alldata)
+2022-04-28 17:16:28.8044 Info Adding target FileTarget(Name=otherFile-web)
+2022-04-28 17:16:28.9018 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\CSharp\CRUD\bin\Debug\net5.0\nlog.config
+2022-04-28 17:18:16.2087 Info Message Template Auto Format enabled
+2022-04-28 17:18:16.2559 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-28 17:18:16.4033 Info Adding target FileTarget(Name=alldata)
+2022-04-28 17:18:16.4728 Info Adding target FileTarget(Name=otherFile-web)
+2022-04-28 17:18:16.6000 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\CSharp\CRUD\bin\Debug\net5.0\nlog.config
+2022-04-28 17:19:00.7952 Info Shutdown() called. Logger closing...
+2022-04-28 17:19:00.7952 Info Closing old configuration.
+2022-04-28 17:19:00.8193 Info Logger has been closed down.
+2022-04-28 17:20:20.0191 Info Message Template Auto Format enabled
+2022-04-28 17:20:20.0466 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-28 17:20:20.1498 Info Adding target FileTarget(Name=alldata)
+2022-04-28 17:20:20.1682 Info Adding target FileTarget(Name=otherFile-web)
+2022-04-28 17:20:20.2503 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\CSharp\CRUD\bin\Debug\net5.0\nlog.config
+2022-04-28 17:21:19.6955 Info Message Template Auto Format enabled
+2022-04-28 17:21:19.7222 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-28 17:21:19.8156 Info Adding target FileTarget(Name=alldata)
+2022-04-28 17:21:19.8359 Info Adding target FileTarget(Name=otherFile-web)
+2022-04-28 17:21:19.9313 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\CSharp\CRUD\bin\Debug\net5.0\nlog.config
+2022-05-04 13:29:10.0581 Info Message Template Auto Format enabled
+2022-05-04 13:29:10.0973 Info Loading assembly: NLog.Web.AspNetCore
+2022-05-04 13:29:10.1745 Info Adding target FileTarget(Name=alldata)
+2022-05-04 13:29:10.2223 Info Adding target FileTarget(Name=otherFile-web)
+2022-05-04 13:29:10.3271 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\CSharp\CRUD\bin\Debug\net5.0\nlog.config
+2022-05-04 13:29:56.0146 Info Shutdown() called. Logger closing...
+2022-05-04 13:29:56.0146 Info Closing old configuration.
+2022-05-04 13:29:56.0267 Info Logger has been closed down.
+2022-05-04 13:30:16.7497 Info Message Template Auto Format enabled
+2022-05-04 13:30:16.7668 Info Loading assembly: NLog.Web.AspNetCore
+2022-05-04 13:30:16.8181 Info Adding target FileTarget(Name=alldata)
+2022-05-04 13:30:16.8181 Info Adding target FileTarget(Name=otherFile-web)
+2022-05-04 13:30:16.8786 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\CSharp\CRUD\bin\Debug\net5.0\nlog.config
+2022-05-06 11:17:18.5959 Info Message Template Auto Format enabled
+2022-05-06 11:17:18.6497 Info Loading assembly: NLog.Web.AspNetCore
+2022-05-06 11:17:18.7764 Info Adding target FileTarget(Name=alldata)
+2022-05-06 11:17:18.8364 Info Adding target FileTarget(Name=otherFile-web)
+2022-05-06 11:17:18.9286 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\CSharp\CRUD\bin\Debug\net5.0\nlog.config
