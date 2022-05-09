@@ -8,6 +8,16 @@ using System;
 
 namespace CRUD.Repositories
 {
+    public interface IDonViRepository
+    {
+        List<DonViViewModel> GetDonVi();
+        ResponseWithPaginationViewModel GetDonViWithPagination(ParamsGetDonViViewModel request);
+        ResponsePostViewModel CreateDonVi(DonVi request);
+        ResponsePostViewModel UpdateDonVi(DonVi request);
+        ResponsePostViewModel DeleteDonVi(int id);
+        DonVi GetDonViById(int id);
+        List<DonViViewModel> GetBoPhanByIdDonVi(int id);
+    }
     public class DonViRepository : IDonViRepository
     {
         private readonly ILogger<DonViRepository> _logger;

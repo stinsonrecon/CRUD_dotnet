@@ -8,6 +8,14 @@ using System.Linq;
 
 namespace CRUD.Repositories
 {
+    public interface IChucNangRepository
+    {
+        List<ChucNangViewModel> GetAllChucNang(string NhomQuyenId);
+        ResponseWithPaginationViewModel GetChucNangWithPaginate(ChucNangSearchViewModel request);
+        ResponsePostViewModel CreateChucNang(ChucNangGetViewModel request);
+        ResponsePostViewModel UpdateChucNang(ChucNangGetViewModel request);
+        ResponsePostViewModel DeleteChucNang(int id);
+    }
     public class ChucNangRepository : IChucNangRepository
     {
         private readonly ILogger<ChucNangRepository> _logger;

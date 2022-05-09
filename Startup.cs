@@ -84,11 +84,34 @@ namespace CRUD
                     ClockSkew = TimeSpan.Zero
                 };
             });
-              
 
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "CRUD_App", Version = "v1" });
+
+                c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+                {
+                    Description = "JWT Authorization header using the Bearer scheme. Example: \"Authorization: Bearer {token}\"",
+                    Name = "Authorization",
+                    BearerFormat = "JWT",
+                    In = ParameterLocation.Header,
+                    Type = SecuritySchemeType.ApiKey
+                });
+
+                c.AddSecurityRequirement(new OpenApiSecurityRequirement
+                {
+                    {
+                        new OpenApiSecurityScheme
+                        {
+                            Reference = new OpenApiReference
+                            {
+                                Type = ReferenceType.SecurityScheme,
+                                Id = "Bearer"
+                            }
+                        },
+                        new string[] {}
+                    }
+                });
             });
 
 
@@ -102,6 +125,9 @@ namespace CRUD
             services.AddTransient<IDonViRepository, DonViRepository>();
             services.AddTransient<IChucNangService, ChucNangService>();
             services.AddTransient<IChucNangRepository, ChucNangRepository>();
+            services.AddTransient<IUserService, UserService>();
+            services.AddTransient<IUserRepository, UserRepository>();
+            
         }
 
         private static void UpdateDatabase(IServiceProvider serviceProvider)
