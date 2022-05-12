@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace CRUD.Controllers
 {
     [Route("api/chucnang")]
+    [Authorize]
     public class ChucNangController : Controller
     {
         private readonly IChucNangService _service;

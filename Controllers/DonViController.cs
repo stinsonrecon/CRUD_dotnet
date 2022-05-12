@@ -1,12 +1,14 @@
 ﻿using CRUD.Models;
 using CRUD.Services;
 using CRUD.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 
 namespace CRUD.Controllers
 {
     [Route("api/donvi")]
+    [Authorize]
     public class DonViController : Controller
     {
         private readonly IDonViService _service;

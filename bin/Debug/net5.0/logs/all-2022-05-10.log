@@ -1,0 +1,29 @@
+2022-05-10 07:05:48.6440||DEBUG|CRUD.Program|Init main function 
+2022-05-10 07:05:53.0098||WARN|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Increasing the MaxRequestBodySize conflicts with the max value for IIS limit maxAllowedContentLength. HTTP requests that have a content length greater than maxAllowedContentLength will still be rejected by IIS. You can disable the limit by either removing or setting the maxAllowedContentLength value to a higher limit. 
+2022-05-10 07:05:55.5288||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-05-10 07:05:55.5308||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-05-10 07:05:55.5308||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\CSharp\CRUD 
+2022-05-10 08:01:14.4062||ERROR|CRUD.Repositories.ChucNangRepository|Error:  
+2022-05-10 08:01:44.7190||ERROR|CRUD.Repositories.ChucNangRepository|Error:  
+2022-05-10 08:01:59.0717||ERROR|CRUD.Repositories.ChucNangRepository|Error:  
+2022-05-10 10:44:55.7147||DEBUG|CRUD.Program|Init main function 
+2022-05-10 10:45:00.3597||WARN|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Increasing the MaxRequestBodySize conflicts with the max value for IIS limit maxAllowedContentLength. HTTP requests that have a content length greater than maxAllowedContentLength will still be rejected by IIS. You can disable the limit by either removing or setting the maxAllowedContentLength value to a higher limit. 
+2022-05-10 10:45:03.9510||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-05-10 10:45:03.9578||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-05-10 10:45:04.0141||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\CSharp\CRUD 
+2022-05-10 10:50:45.0644||DEBUG|CRUD.Program|Init main function 
+2022-05-10 10:50:46.8247||WARN|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Increasing the MaxRequestBodySize conflicts with the max value for IIS limit maxAllowedContentLength. HTTP requests that have a content length greater than maxAllowedContentLength will still be rejected by IIS. You can disable the limit by either removing or setting the maxAllowedContentLength value to a higher limit. 
+2022-05-10 10:50:49.4370||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-05-10 10:50:49.4522||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-05-10 10:50:49.4773||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\CSharp\CRUD 
+2022-05-10 10:56:39.2655||DEBUG|CRUD.Program|Init main function 
+2022-05-10 10:56:40.8776||WARN|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Increasing the MaxRequestBodySize conflicts with the max value for IIS limit maxAllowedContentLength. HTTP requests that have a content length greater than maxAllowedContentLength will still be rejected by IIS. You can disable the limit by either removing or setting the maxAllowedContentLength value to a higher limit. 
+2022-05-10 10:56:43.5609||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-05-10 10:56:43.5609||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-05-10 10:56:43.6077||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\CSharp\CRUD 
+2022-05-10 10:57:08.6614||WARN|Microsoft.AspNetCore.Identity.RoleManager|Role 42e39119-980c-4da0-b7d2-44bbeaaab3df validation failed: DuplicateRoleName. 
+2022-05-10 11:02:10.3946||DEBUG|CRUD.Program|Init main function 
+2022-05-10 11:02:11.9451||WARN|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Increasing the MaxRequestBodySize conflicts with the max value for IIS limit maxAllowedContentLength. HTTP requests that have a content length greater than maxAllowedContentLength will still be rejected by IIS. You can disable the limit by either removing or setting the maxAllowedContentLength value to a higher limit. 
+2022-05-10 11:02:14.5915||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-05-10 11:02:14.6065||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-05-10 11:02:14.7161||INFO|Microsoft.Hosting.Lifetime|Content root path: D:\CSharp\CRUD 

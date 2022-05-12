@@ -68,7 +68,7 @@ namespace CRUD.Controllers
             return model;
         }
         
-        [HttpPost("create/id")]
+        [HttpPost("create/{id}")]
         public async Task<HttpResponseMessage> CreateOrEditUser(string id, [FromBody] UserViewModel model)
         {
             if (!ModelState.IsValid)
