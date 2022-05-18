@@ -1,0 +1,2 @@
+2022-05-13 14:39:22.3657||DEBUG|CRUD.Program|Init main function |url: |action: 
+2022-05-13 14:39:25.4873||WARN|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Increasing the MaxRequestBodySize conflicts with the max value for IIS limit maxAllowedContentLength. HTTP requests that have a content length greater than maxAllowedContentLength will still be rejected by IIS. You can disable the limit by either removing or setting the maxAllowedContentLength value to a higher limit. |url: |action: 

@@ -33,11 +33,10 @@ namespace CRUD.Controllers
             this.signInManager = signInManager;
             _context = context;
         }
-        [HttpGet("GetAll")]
+        [HttpGet("getAll")]
         public async Task<List<UserViewModel>> GetAllUser()
         {
             List<UserViewModel> model = new List<UserViewModel>();
-
             model = userManager.Users.Where(x => (x.IsDelete == false || x.IsDelete == null)).Select(u => new UserViewModel
             {
                 Id = u.Id,
@@ -49,25 +48,22 @@ namespace CRUD.Controllers
                 PhoneNumber = u.PhoneNumber,
                 IsDelete = u.IsDelete,
                 IsActive = u.IsActive,
-                AccountType = u.AccountType,
+                AccountType = u.AccountType
             }).OrderBy(x => x.UserName).ToList();
 
-            foreach(var m in model)
+            foreach (var m in model)
             {
-                var user = userManager.Users.FirstOrDefault(x => x.Id == m.Id);
-
+                var user = userManager.Users.FirstOrDefault(u => u.Id == m.Id);
                 IList<string> listRole = await userManager.GetRolesAsync(user);
-
-                if(listRole != null && listRole.Count > 0)
+                if (listRole != null && listRole.Count > 0)
                 {
                     m.ApplicationRolesId = roleManager.Roles.Single(r => r.Name == listRole.Single()).Id;
                     m.RoleName = roleManager.Roles.Single(r => r.Name == listRole.Single()).Name;
                 }
             }
-
             return model;
         }
-        
+
         [HttpPost("create/{id}")]
         public async Task<HttpResponseMessage> CreateOrEditUser(string id, [FromBody] UserViewModel model)
         {

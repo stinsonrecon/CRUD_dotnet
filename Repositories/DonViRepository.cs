@@ -97,6 +97,7 @@ namespace CRUD.Repositories
                                 DonViChaId = x.DonViChaId,
                                 NguoiTaoId = x.NguoiTaoId,
                                 ThoiGianTao = x.ThoiGianTao,
+                                LaPhongBan = x.LaPhongBan,
                                 TrangThai = x.TrangThai
                             };
                 var response = donVi.ToList();
@@ -128,6 +129,7 @@ namespace CRUD.Repositories
                                 DonViChaId = x.DonViChaId,
                                 NguoiTaoId = x.NguoiTaoId,
                                 ThoiGianTao = x.ThoiGianTao,
+                                LaPhongBan = x.LaPhongBan,
                                 TrangThai = x.TrangThai
                             };
                 var response = donVi.ToList();
@@ -160,8 +162,10 @@ namespace CRUD.Repositories
                                     Email = x.Email,
                                     MoTa = x.MoTa,
                                     DonViChaId = x.DonViChaId,
+                                    DonViChaTieuDe = _context.DonVi.FirstOrDefault(s => s.Id == x.DonViChaId).TenDonVi,
                                     NguoiTaoId = x.NguoiTaoId,
                                     ThoiGianTao = x.ThoiGianTao,
+                                    LaPhongBan = x.LaPhongBan,
                                     TrangThai = x.TrangThai
                                 };
                 if (!String.IsNullOrEmpty(request.TenDonVi))

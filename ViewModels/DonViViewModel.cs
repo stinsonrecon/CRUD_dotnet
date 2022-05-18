@@ -15,6 +15,7 @@ namespace CRUD.ViewModels
         public int? DonViChaId { get; set; }
         public string NguoiTaoId { get; set; }
         public DateTime? ThoiGianTao { get; set; }
+        public int? LaPhongBan { get; set; }
         public int? TrangThai { get; set; }
     }
 
@@ -28,8 +29,10 @@ namespace CRUD.ViewModels
         public string Email { get; set; }
         public string MoTa { get; set; }
         public int? DonViChaId { get; set; }
+        public string DonViChaTieuDe { get; set; }
         public string NguoiTaoId { get; set; }
         public DateTime? ThoiGianTao { get; set; }
+        public int? LaPhongBan { get; set; }
         public int? TrangThai { get; set; }
     }
 

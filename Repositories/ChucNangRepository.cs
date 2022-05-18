@@ -142,20 +142,20 @@ namespace CRUD.Repositories
         {
             try
             {
-                var chucNangList = from x in _context.ChucNang
+                var chucNangList = from cn in _context.ChucNang
                                    select new ChucNangGetViewModel
                                    {
-                                       Id = x.Id,
-                                       TieuDe = x.TieuDe,
-                                       ClaimValue = x.ClaimValue,
-                                       ChucNangChaId = x.ChucNangChaId,
-                                       ChucNangChaTieuDe = _context.ChucNang.FirstOrDefault(x => x.Id == x.ChucNangChaId).TieuDe,
-                                       MoTa = x.MoTa,
-                                       TrangThai = x.TrangThai,
-                                       LinkUrl = x.LinkUrl,
-                                       Icon = x.Icon,
-                                       Order = x.Order,
-                                       Type = x.Type
+                                       Id = cn.Id,
+                                       TieuDe = cn.TieuDe,
+                                       ClaimValue = cn.ClaimValue,
+                                       ChucNangChaId = cn.ChucNangChaId,
+                                       ChucNangChaTieuDe = _context.ChucNang.FirstOrDefault(x => x.Id == cn.ChucNangChaId).TieuDe,
+                                       MoTa = cn.MoTa,
+                                       TrangThai = cn.TrangThai,
+                                       LinkUrl = cn.LinkUrl,
+                                       Icon = cn.Icon,
+                                       Order = cn.Order,
+                                       Type = cn.Type
                                    };
 
                 if(request.Type != null)
